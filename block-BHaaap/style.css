@@ -108,4 +108,8 @@ body {
     margin-left: 50%;
     transform: translateX(-50%);
 }
+a{
+    background-color: #A1A1A1;
+    text-decoration: none;
+}
 
