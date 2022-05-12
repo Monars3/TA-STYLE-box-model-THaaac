@@ -66,8 +66,8 @@ h1 {
     
 }
 .circle {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     background-color: red;
     border-radius: 50%;
     margin: 50px auto;
@@ -80,36 +80,35 @@ img {
     /*position: relative;
     margin-left: 50%;
     transform: translateX(-50%)*/
-    margin: 0 30% 0 30%;
+    display: block;
+    margin: 0 auto;
 }
 .para {
     width: 600px;
     height: 400px;
     border: 2px dotted black;
     background-color: #D1D631;
-    text-align: left;
     padding: 5px;
     margin: 10px auto;
     font-size: 20px;
 }
-.footer{
-    
-    border-bottom: 3px blue dashed ;
-    text-align: center;
-    padding: 10px;
-
-    /*position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);*/
-}
-body {
+/*body {
     display: inline-block;
     position: relative;
     margin-left: 50%;
     transform: translateX(-50%);
-}
+}*/
 a{
+    border-bottom: 3px blue dashed ;
     background-color: #A1A1A1;
     text-decoration: none;
+    padding: 10px;
+    text-align: center;
+
+   
+    
+}
+.anchor {
+    text-align: center;
 }
 
