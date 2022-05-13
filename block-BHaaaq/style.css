@@ -54,50 +54,46 @@ h1 {
     margin-bottom: 10px;
 }
 
-div {
-    width: 70px;
-    height: 50px;
+.box {
+    width: 150px;
+    height: 80px;
     background-color: rgb(197, 34, 34);
     padding: 2px;
-    margin: 20px;
+    margin: 30px;
     margin-bottom: 20px;
-    border: 3px black solid;
+    border: 7px black solid;
+    display: inline-block;
     
     }
-span {
-    width: 70px;
-    height: 50px;
-    background-color: rgb(197, 34, 34);
-    padding: 2px;
-    margin: 20px;
-    margin-bottom: 20px;
-    display: inline-block;
-}
+
+
 p{
     width: 220px;
-    height: 260px;
     background-color: rgb(202, 64, 33);
     padding: 10px;
     margin: 30px;
+    border-top: 10px blue solid;
+    border-bottom: 10px yellow solid; 
+    border-left: 10px green solid;
+    border-right: 10px grey solid;
 
-
 }
-span.second {
-    border: 5px black double;
+.second {
+    border: 6px double;
 }
-span.third {
-    border: 5px black dashed;
+.third {
+    border: 6px dashed;
 }
-span.fourth {
-    border: 3px black dotted; 
+.fourth {
+    border: 6px dotted; 
 }
- p.para{
-     border-top: 10px blue solid;
-     border-bottom: 10px yellow solid; 
-     border-left: 8px green solid;
-     border-right: 8px grey solid;
-     outline: 15px rgb(122, 6, 175) solid;
-     
- }
+.fifth {
+    border: none;
+}
+.para{
+     margin: 20px;
+     background-color: purple;
+     display: inline-block;
+     }
     
 
