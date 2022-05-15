@@ -5,15 +5,17 @@
     background-color: brown;
     border: 10px black dashed;
     margin: 20px;
-    box-sizing: border-box;
 }
 .boxb {
     width: 300px;
     height: 200px;
-    padding: 80px;
+    padding: 50px;
     background-color: rgb(34, 216, 92);
-    border: 20px black dashed;
+    border: 10px black dashed;
     margin: 20px;
     box-sizing: border-box;
-
+}
+h3 {
+    font-size: 24px;
+    margin: 20px;
 }
