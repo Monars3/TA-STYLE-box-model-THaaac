@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: 35px;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 10px skyblue solid;
+    outline: 4px black solid;
+    box-shadow: 0 0 0 14px rgb(221, 102, 126);
+    margin: 30px auto;
+}
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    margin: 15px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.a {
+    margin-left: 9px;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.b {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*.c {
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
+.circle-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.Padding {
+    background-color: skyblue;
+    margin-left: 36px;
+}
+.Border {
+    background-color: black;
+    margin-left: 39px;
+}
+.Margin {
+    background-color: crimson;
+}
+
+.box2 {
+    width: 180px;
+    height: 100px;
+    background-color: grey;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.container { 
+    width: 50%;
+    border: 1px solid rgb(189, 184, 184);
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+.border-1px {
+    border: 1px black solid;
+    
+}
+.inline-1px {
+    border: 1px black solid;
+}
+hr {
+    border-top: 1px dotted rgb(197, 192, 192);
+    width: 70%;
+    margin: 20px auto;
+    
+}
