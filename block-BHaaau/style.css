@@ -48,102 +48,89 @@ table {
 }
 
 h1 {
-    font-family:'Courier New', Courier, monospace;
-    font-weight:bold;
-    font-size: 35px;
-    width: 700px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-        
+    font-size: 64px;
+    padding: 32px 180px;
 }
+
 h2{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 40px;
     text-align: center;
-    margin: 20px auto;
+    margin: 32px 0;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: aquamarine;
-    border: 10px skyblue solid;
-    outline: 4px black solid;
-    box-shadow: 0 0 0 14px rgb(221, 102, 126);
-    margin: 30px auto;
+    border: 20px skyblue solid;
+    outline: 10px black solid;
+    box-shadow: 0 0 0 30px rgb(221, 102, 126);
+    margin: 40px auto;
 }
 .circle {
-    width: 8px;
-    height: 8px;
-    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     background-color: aquamarine;
-    margin: 15px;
     display: inline-block;
-    margin-left: 35px;
+    vertical-align: middle;
 }
-.a {
-    margin-left: 9px;
-    font-size: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
+
 .b {
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 24px;
 }
-/*.c {
-    font-family: 'Courier New', Courier, monospace;
-}*/
 
 .circle-container {
-    width: 300px;
-    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
 }
 
-.Padding {
+.padding {
     background-color: skyblue;
-    margin-left: 36px;
 }
-.Border {
+    
+.border {
     background-color: black;
-    margin-left: 39px;
 }
-.Margin {
+.margin {
     background-color: crimson;
 }
 
 .box2 {
     width: 180px;
     height: 100px;
-    background-color: grey;
+    background-color: rgb(154, 143, 143);
     margin: 10px;
     display: inline-block;
-    box-sizing: border-box;
+    /*text-align: center;*/
 }
 
 .container { 
-    width: 50%;
-    border: 1px solid rgb(189, 184, 184);
+    margin: 0 15px;
     display: inline-block;
-    margin: auto;
+}
+.container1 {
+    width: 600px;
+    border: 1px solid gray;
+    margin: 30px auto;
+    font-size: 0;
 }
 
 
 
 .border-1px {
     border: 1px black solid;
-    
 }
+
 .inline-1px {
     border: 1px black solid;
+    box-sizing: border-box;
 }
 hr {
-    border-top: 1px dotted rgb(197, 192, 192);
-    width: 70%;
-    margin: 20px auto;
-    
+    width: 500px;
+    border-style: dashed;
+    border-color: gray;
+    margin: 32px auto;
 }
